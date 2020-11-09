@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(223, 231, 227);
+}
+
+h2, h3, p, input, .letter {
+    margin-left: 30px;
+}
+
+h2 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 900;
+    font-size: 16pt;
+}
+
+h3 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 900; 
+    font-size: 13pt;
+}
+
+input {
+    border: 0px;
+    border-radius: 0px;
+    height: 20px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px 4px 0 rgba(48, 53, 50, 0.2),
+    -2px -2px 4px 0 rgba(223, 231, 227, 0.5);
+}
+
+button {
+    position: absolute;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    background-color: white;
+    box-shadow: 2px 2px 4px 0 rgba(48, 53, 50, 0.2),
+    -2px -2px 4px 0 rgba(223, 231, 227, 0.5);
+    border: none;
+    border-radius: 3px;
+    top: 128px;
+    left: 200px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    background-color: rgb(223, 231, 227);
+    box-shadow: 2px 2px 4px 0 rgba(223, 231, 227, 0.5),
+    -2px -2px 4px 0 rgba(48, 53, 50, 0.2);
+    transform: translateY(2px);
+    border: none;
+  }
+
+
+p {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+
+.letter {
+    width: 15pt;
+    height: 17pt;
+    background-color: white;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+.hangman {
+    display: grid;
+    grid-template-columns: 22px 22px 22px 22px 22px;
+    grid-gap: 1px;
+    text-align: center;
+}
+
+
+.modal-display {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 115px;
+    width: fit-content;
+    overflow: auto;
+    background-color: white;
+    margin-left: 300px;
+  }
+  
+
+#exit-button {
+    position: absolute;
+    top: auto;
+    right: 7px;
+    color: #black;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+
+  #exit-button:hover,
+  #exit-button:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #alert {
+      padding-right: 45px;
+  }
