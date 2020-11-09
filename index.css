@@ -25,6 +25,7 @@ input {
     font-size: 11pt;
     width: 105px;
     padding-left: 6px;
+    top: 128px;
 }
 
 input:focus {
@@ -43,7 +44,7 @@ button {
     -2px -2px 4px 0 rgba(223, 231, 227, 0.5);
     border: none;
     border-radius: 3px;
-    top: 124px;
+    top: 128px;
     left: 162px;
 }
 
