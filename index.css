@@ -22,6 +22,8 @@ input {
     border: 0px;
     border-radius: 0px;
     height: 20px;
+    font-size: 11pt;
+    width: 110px;
 }
 
 input:focus {
@@ -41,7 +43,7 @@ button {
     border: none;
     border-radius: 3px;
     top: 128px;
-    left: 200px;
+    left: 162px;
 }
 
 button:hover {
